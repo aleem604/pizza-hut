@@ -19,7 +19,8 @@ import Order from './features/order/Order';
         {
           path:'/menu',
           element: <Menu />,
-          loader: menuLoader
+          loader: menuLoader,
+          errorElement: <Error />,
         },
         {
           path:'/cart',

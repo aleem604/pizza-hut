@@ -8,6 +8,10 @@ function Header() {
       <Link to="/" className="tracking-widest">
         Fast React Pizza Co.
       </Link>
+      <br />
+      <Link to="/menu" className="tracking-widest">
+        Go to Menu
+      </Link>
 
       <SearchOrder />
       <Username />
