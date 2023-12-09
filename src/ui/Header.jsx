@@ -12,6 +12,10 @@ function Header() {
       <Link to="/menu" className="tracking-widest">
         Go to Menu
       </Link>
+       <br />
+      <Link to="/order/new" className="tracking-widest">
+        Create Order
+      </Link>
 
       <SearchOrder />
       <Username />
