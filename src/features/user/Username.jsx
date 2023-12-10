@@ -1,6 +1,6 @@
 
 export default function Username() {
   return (
-    <div>Username</div>
+    <div className="text-sm font-semibold">Jonas</div>
   )
 }

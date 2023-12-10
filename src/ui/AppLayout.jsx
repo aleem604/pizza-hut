@@ -8,12 +8,12 @@ export default function AppLayout() {
     const isLoading= navigation.state === 'loading';
 
   return (
-    <div className='layout'>
+    <div className='min-h-[50vh]'>
         {isLoading && <Loader />}
         
         <Header />
 
-        <div className='overflow-scroll'>
+        <div className='min-h-[50vh]'>
             <main className='mx-auto max-w-3xl'>
                 <Outlet />
             </main>
