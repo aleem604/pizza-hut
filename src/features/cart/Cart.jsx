@@ -29,7 +29,7 @@ function Cart() {
 
   return (
     <div>
-      <Link to="/menu">&larr; Back to menu</Link>
+      <Link to="/menu" className='text-sm hover:text-blue-800'>&larr; Back to menu</Link>
 
       <h2>Your cart, %NAME% {cart.length}</h2>
       <ul className="mt-3 divide-y divide-stone-200 border-b">
