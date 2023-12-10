@@ -8,7 +8,7 @@ function CreateUser() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className='px-auto text-center py-2'>
+    <form onSubmit={handleSubmit} className='"mb-4 text-sm text-stone-600 md:text-base'>
       <p>👋 Welcome! Please start by telling us your name:</p>
 
       <input
