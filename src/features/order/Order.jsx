@@ -1,5 +1,4 @@
 // Test ID: IIDSAT
-
 import { useLoaderData, useFetcher } from 'react-router-dom';
 import { getOrder } from '../../services/apiRestaurant';
 import {
@@ -17,7 +16,9 @@ function Order() {
 
   useEffect(
     function () {
-      if (!fetcher.data && fetcher.state === 'idle') fetcher.load('/menu');
+      if (!fetcher.data && fetcher.state === 'idle') {
+        fetcher.load('/menu');
+      }
     },
     [fetcher]
   );
